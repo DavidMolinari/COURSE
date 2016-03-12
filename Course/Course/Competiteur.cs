@@ -8,11 +8,11 @@ namespace Course
 {
     public class Competiteur
     {
-        private int NumeroCompetiteur { get; set; }
-        private string NomCompetiteur { get; set; }
-        private string PrenomCompetiteur { get; set; }
-        private int ClassementFIS { get; set; }
-        private int ClassementWCSL { get; set; }
+        public int NumeroCompetiteur { get; set; }
+        public string NomCompetiteur { get; set; }
+        public string PrenomCompetiteur { get; set; }
+        public int ClassementFIS { get; set; }
+        public int ClassementWCSL { get; set; }
 
 
         public Competiteur(int num, string nom, string prenom, int classFIS, int classWCSL)
