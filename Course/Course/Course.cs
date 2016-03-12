@@ -15,7 +15,12 @@ namespace Course
         public DateTime DateCompetition { get; set; }
 
         protected List<Participation> lesParticipants;
-        
+
+
+        /// <summary>
+        /// Procedure à implémenter plus tard
+        /// </summary>
+        protected void classerLesParticipant() { }
         /// <summary>
         /// Constructeur
         /// </summary>

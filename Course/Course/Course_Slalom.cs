@@ -18,7 +18,8 @@ namespace Course
         /// </summary>
         public override void traitementDossards()
         {
-            throw new NotImplementedException();
+
+            //throw new NotImplementedException();
         }
 
         /// <summary>
