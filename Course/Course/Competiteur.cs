@@ -24,6 +24,10 @@ namespace Course
             this.ClassementWCSL = classWCSL;
         }
 
+        public override string ToString()
+        {
+            return this.NumeroCompetiteur + " " +this.NomCompetiteur + " " +  this.PrenomCompetiteur + " " + this.ClassementFIS + " " + this.ClassementWCSL;
+        }
 
     }
 }
